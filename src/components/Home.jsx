@@ -40,9 +40,9 @@ export default function Home() {
                 </thead>
                 <tbody>
                     {
-                        User && User.length > 0 ? User.map((e)=>{
+                        User && User.length > 0 ? User.map((e,i)=>{
                             return (
-                                <tr>
+                                <tr key={i}>
                                     <td>{e.name}</td>
                                     <td>{e.email}</td>
                                     <td>{e.dob}</td>
