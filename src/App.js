@@ -6,11 +6,13 @@ import Edit from './components/Edit';
 
 function App() {
   return (
-    <Routes>
+    <div>
+      <Routes>
       <Route path='/' element={<Home />}/>
       <Route path='/create' element={<Add />}/>
       <Route path='/edit' element={<Edit />}/>
     </Routes>
+    </div>
   );
 }
 
