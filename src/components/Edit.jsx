@@ -2,8 +2,7 @@ import React, {useState, useEffect} from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Button, Form } from 'react-bootstrap';
 import User from './User';
-import {v4 as uuid} from "uuid";
-import { useNavigate, Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 export default function Edit(){
     let histroy = useNavigate();
